@@ -35,6 +35,8 @@ function AnswerSheet() {
     e.preventDefault();
     navigate('/generate', {
       state: {
+        id: Date.now().toString(),
+        name: 'Answer Sheet 1',
         examType,
         academicTerm,
         subjectName,
