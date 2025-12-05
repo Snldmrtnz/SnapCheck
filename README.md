@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SnapCheck
 
 An automated test paper checking system that processes multiple-choice answer sheets from images (JPEG/PNG) and PDF files. Uses computer vision and OCR to detect filled bubbles, extract student information, and provide detailed scoring with Excel export functionality.
@@ -147,3 +148,6 @@ The backend is configured for deployment on Railway with the included `railway.j
 3. Set the root directory to `backend`
 4. Railway will automatically detect the Dockerfile and deploy
 5. The deployment configuration is handled by `railway.json`
+=======
+# SnapCheck
+>>>>>>> aebfece693049adf4686e348a22667e99866b0d7
